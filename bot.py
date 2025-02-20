@@ -4,8 +4,8 @@ import requests
 from flask import Flask, request
 from telegram import Bot
 
-TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
-CHAT_ID = "YOUR_CHAT_ID"
+TOKEN = "binamachine_bot"
+CHAT_ID = "1946942327"
 WEBHOOK_SECRET = "your_secret_key"
 
 bot = Bot(token=TOKEN)
